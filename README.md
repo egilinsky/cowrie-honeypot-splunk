@@ -1,6 +1,6 @@
-# 🐍 Cowrie SSH Honeypot with Splunk Integration
+# Cowrie SSH Honeypot with Splunk Integration
 
-## 🎯 Objective
+## Objective
 The goal of this project was to simulate a **vulnerable SSH environment** in order to monitor and analyze unauthorized access attempts.  
 By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior, collect brute-force attempts, and study credential reuse patterns in real time using **Splunk dashboards**.
 
@@ -22,7 +22,7 @@ By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior,
 
 ---
 
-## 🧠 Data Flow Overview
+## Data Flow Overview
 1. Attacker connects to the honeypot via SSH or Telnet  
 2. Cowrie logs all activity and fake command execution  
 3. A Python script (`send_to_splunk.py`) tails Cowrie’s logs and forwards data to Splunk’s HTTP Event Collector  
@@ -30,7 +30,7 @@ By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior,
 
 ---
 
-## 🧪 How to Test the Honeypot
+## How to Test the Honeypot
 
 ### SSH Test
 ```bash
