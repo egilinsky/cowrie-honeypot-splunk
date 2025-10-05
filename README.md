@@ -6,7 +6,7 @@ By deploying a **Cowrie SSH honeypot**, I was able to capture attacker behavior,
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ### 1. Platform
 - Deployed on a Linux VM (Ubuntu/Debian)
