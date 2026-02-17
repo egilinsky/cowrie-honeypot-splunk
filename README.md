@@ -52,8 +52,19 @@ tail -f jsonlog.json
 
 ## Data Captured
 1. Brute Force Attempts
+  - Multiple IPs attempted to brute force the root account with common usernames and passwords
+  - Example: root:hello123, admin:123456, user:qwerty
 2. Attacker Commands
+  - Logged shell commands attackers tried to execute after "successful" login
+  - Common attempts included downloading malware scripts, enumerating files, or checking system info
 3. Credential Reuse
+  - Several password reuse attempts were detected, highlighting weak password practices
 
-
+## Analysis in Splunk
+1. Indexed logs from Cowrie using the sourcetype linux_secure
+2. Built dashboards and visualizations to identify:
+  - Top attacker IP addresses
+  - Most attempted usernames/passwords
+  - Time-series trends of brute force attempts
+3. Example insight: Over 6,500 SSH login attempts recorded in just a few days, with a conversation of attacks from a small set of IP addresses
 
