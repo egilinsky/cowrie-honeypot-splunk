@@ -55,8 +55,5 @@ tail -f jsonlog.json
 2. Attacker Commands
 3. Credential Reuse
 
-## Screenshots
-<img width="2048" height="1062" alt="image" src="https://github.com/user-attachments/assets/0d8e14a4-6536-4f43-8279-40f3d1cdb292" />
-
 
 
