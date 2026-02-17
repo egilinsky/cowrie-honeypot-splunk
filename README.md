@@ -1,4 +1,4 @@
-# SSH Honeypot with Splunk Integration
+### SSH Honeypot with Splunk Integration
 
 ## Objective
 The goal of this project was to simulate a **vulnerable SSH environment** in order to monitor and analyze unauthorized access attempts.  
